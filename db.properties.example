@@ -1,0 +1,5 @@
+# Copy this file to "db.properties" (which is git-ignored) and fill in your own values.
+# Environment variables ORDERSDB_URL / ORDERSDB_USER / ORDERSDB_PASSWORD take priority over this file.
+db.url=jdbc:postgresql://localhost:5432/ordersdb
+db.user=postgres
+db.password=CHANGE_ME
